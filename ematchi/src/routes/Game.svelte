@@ -1,14 +1,20 @@
+<script>
+    import Grid from "./Grid.svelte";
+
+</script>
 <div class="game">
     <div class="info">
 
     </div>
 
-    <div class="grid-container"></div>
+    <div class="grid-container">
+        <Grid />
+    </div>
 
     <div class="info">
 
     </div>
-    
+
 </div>
 
 <style>
@@ -17,6 +23,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        height: 100%;
     }
 
     .info {
